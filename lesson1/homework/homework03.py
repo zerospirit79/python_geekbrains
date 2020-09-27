@@ -1,0 +1,5 @@
+n = int(input("Введите число >>>"))
+temp1 = str(n)+str(n)
+temp2 = str(n)+str(n)+str(n)
+num = n + int(temp1) + int(temp2)
+print(f"Сумма чисел n+nn+nnn={num}")
